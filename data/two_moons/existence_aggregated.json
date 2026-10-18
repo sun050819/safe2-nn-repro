@@ -1,0 +1,26 @@
+{
+  "0.3": {
+    "n_samples": 20,
+    "nontrivial_boxes": 10,
+    "exist_classical": 5,
+    "exist_safe2": 5,
+    "classical_success_on_nontrivial": 0.5,
+    "safe2_success_on_nontrivial": 0.5,
+    "root_margin_cl_mean": -3.5329502000000006,
+    "root_margin_cl_max_abs": 7.63466,
+    "root_margin_safe2_mean": -3.5329502000000006,
+    "root_margin_safe2_max_abs": 7.63466
+  },
+  "0.5": {
+    "n_samples": 20,
+    "nontrivial_boxes": 20,
+    "exist_classical": 8,
+    "exist_safe2": 11,
+    "classical_success_on_nontrivial": 0.4,
+    "safe2_success_on_nontrivial": 0.55,
+    "root_margin_cl_mean": -2.7181895,
+    "root_margin_cl_max_abs": 8.38862,
+    "root_margin_safe2_mean": -2.1660122727272726,
+    "root_margin_safe2_max_abs": 8.38862
+  }
+}

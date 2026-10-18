@@ -1,0 +1,23 @@
+{
+  "n_samples": 600,
+  "eps": 0.01,
+  "robust_counts": {
+    "ibp": 0,
+    "krawczyk": 71,
+    "safe2": 102
+  },
+  "robust_agreement_safe2_vs_classical": 102,
+  "robust_total_safe2": 102,
+  "exist_safe2": 0,
+  "exist_classical": 0,
+  "mcnemar_safe2_vs_ibp": {
+    "b": 102,
+    "c": 0,
+    "p": 3.944304526105059e-31
+  },
+  "mcnemar_safe2_vs_krawczyk": {
+    "b": 31,
+    "c": 0,
+    "p": 9.313225746154785e-10
+  }
+}
