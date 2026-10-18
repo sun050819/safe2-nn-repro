@@ -15,9 +15,15 @@
 ## Reproduce
 1. Install dependencies: pip install torch numpy
 2. Run: python scripts/run_experiments.py (MNIST)
-3. Run: python scripts/existence_experiment.py (two-moons)
+3. Run: python scripts/existence_experiment.py (two-moons, n=200)
 4. Run: python scripts/run_scaling.py (scaling)
+5. Run: python scripts/safe2_assisted_bab.py (SAFE2-assisted BaB)
+
+## Key Results
+- Two-moons (ε=0.5, n=200): classical 64/200 (32%), SAFE2 78/200 (39%), McNemar p=0.013
+- SAFE2-assisted BaB: 90.9% node reduction on two-moons (5564 → 507 nodes)
 
 ## Notes
 - CIFAR-10 training scripts are not included (compute-heavy; available upon acceptance).
 - All outputs are generated deterministically given the fixed random seeds in the scripts.
+- torch.use_deterministic_algorithms(True) is enabled for reproducibility.
